@@ -1,0 +1,214 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>标签 | Sitoi</title><meta name="author" content="Sitoi"><meta name="copyright" content="Sitoi"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="真正的酷都是需要付诸努力的">
+<meta property="og:type" content="website">
+<meta property="og:title" content="标签">
+<meta property="og:url" content="https://sitoi.cn/tags/index.html">
+<meta property="og:site_name" content="Sitoi">
+<meta property="og:description" content="真正的酷都是需要付诸努力的">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Sitoi/Sitoi.github.io/medias/avatars/avatar.jpg">
+<meta property="article:published_time" content="2019-10-16T08:40:27.000Z">
+<meta property="article:modified_time" content="2025-01-13T06:40:03.873Z">
+<meta property="article:author" content="Sitoi">
+<meta property="article:tag" content="Sitoi,Blog,博客,Python,爬虫,Scrapy,Spider,Crawl,工程师,程序员,IT,教程">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Sitoi/Sitoi.github.io/medias/avatars/avatar.jpg"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Sitoi/Sitoi.github.io/favicon.ico"><link rel="canonical" href="https://sitoi.cn/tags/index.html"><link rel="preconnect" href="https://npm.elemecdn.com"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//static.cloudflareinsights.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="manifest" href="/manifest.json"/><meta name="msapplication-TileColor" content="#fff"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/medias/logo_32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/medias/logo_16.png"/><link rel="mask-icon" href="/apple-touch-icon.png" color="#5bbad5"/><link rel="stylesheet" href="/css/index.css?v=5.3.2"><link rel="stylesheet" href="https://npm.elemecdn.com/@fortawesome/fontawesome-free@latest/css/all.min.css"><link rel="stylesheet" href="https://npm.elemecdn.com/node-snackbar@latest/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/@fancyapps/ui@latest/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c29e2dcbe60cb0ec619a76c424a71b11";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+btf.addGlobalFn('pjaxComplete', () => {
+  _hmt.push(['_trackPageview',window.location.pathname])
+}, 'baidu_analytics')
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-136865061-1"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'UA-136865061-1')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'UA-136865061-1', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script defer="defer" data-pjax="data-pjax" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;b618d0d8bcf448af935bd89530ccffcd&quot;}"></script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://npm.elemecdn.com/@egjs/infinitegrid@latest/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '标签',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><script async src="https://umami.sitoi.cn/script.js" data-website-id="b23bdc64-5e23-46d5-9e2c-c862f9413a1f"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sitoi/Sitoi.github.io/background.css"><meta name="baidu_union_verify" content="8822ba856d99c65163dd207aaffc3510"><style type="text/css">.app-refresh{position:fixed;top:-2.2rem;left:0;right:0;z-index:99999;padding:0 1rem;font-size:15px;height:2.2rem;transition:all .3s ease}.app-refresh-wrap{display:flex;color:#fff;height:100%;align-items:center;justify-content:center}.app-refresh-wrap a{color:#fff;text-decoration:underline;cursor:pointer}</style><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Sitoi" type="application/atom+xml">
+</head><body><div id="web_bg" style="background-color: #efefef;"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://cdn.jsdelivr.net/gh/Sitoi/Sitoi.github.io/medias/avatars/avatar.jpg" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/Sitoi/Sitoi.github.io/medias/loading/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">54</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">95</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">25</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fas fa-envelope"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友人</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 项目</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="https://sitoi.github.io/dailycheckin/"><i class="fa-fw fas fa-location-arrow"></i><span> Dailycheckin</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="https://crawlaio.github.io"><i class="fa-fw fas fa-location-arrow"></i><span> 导航</span></a></div></div></div></div><div class="page type-tags" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Sitoi</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fas fa-envelope"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友人</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 项目</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="https://sitoi.github.io/dailycheckin/"><i class="fa-fw fas fa-location-arrow"></i><span> Dailycheckin</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="https://crawlaio.github.io"><i class="fa-fw fas fa-location-arrow"></i><span> 导航</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">标签</h1></div></header><main class="layout hide-aside" id="content-inner"><div id="page"><div class="tag-cloud-list text-center"><a href="/tags/Ambari/" style="font-size: 1.29em; color: rgb(74, 128, 169);">Ambari</a><a href="/tags/ntpd/" style="font-size: 1.2em; color: rgb(90, 87, 156);">ntpd</a><a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1.2em; color: rgb(110, 116, 198);">教程</a><a href="/tags/Docker/" style="font-size: 1.37em; color: rgb(95, 103, 176);">Docker</a><a href="/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" style="font-size: 1.33em; color: rgb(78, 50, 79);">微服务</a><a href="/tags/Docker-Compose/" style="font-size: 1.2em; color: rgb(137, 107, 61);">Docker-Compose</a><a href="/tags/Dockerfile/" style="font-size: 1.2em; color: rgb(69, 83, 50);">Dockerfile</a><a href="/tags/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A3/" style="font-size: 1.46em; color: rgb(50, 50, 148);">安装文档</a><a href="/tags/GitBook/" style="font-size: 1.2em; color: rgb(50, 132, 117);">GitBook</a><a href="/tags/Linux/" style="font-size: 1.41em; color: rgb(186, 55, 75);">Linux</a><a href="/tags/MongoDB/" style="font-size: 1.29em; color: rgb(195, 175, 84);">MongoDB</a><a href="/tags/NoSQL/" style="font-size: 1.29em; color: rgb(131, 185, 88);">NoSQL</a><a href="/tags/GitHub/" style="font-size: 1.5em; color: rgb(50, 50, 61);">GitHub</a><a href="/tags/jsDelivr/" style="font-size: 1.2em; color: rgb(90, 151, 145);">jsDelivr</a><a href="/tags/PicGo/" style="font-size: 1.2em; color: rgb(50, 54, 171);">PicGo</a><a href="/tags/Imagine/" style="font-size: 1.2em; color: rgb(175, 61, 164);">Imagine</a><a href="/tags/Hadoop/" style="font-size: 1.24em; color: rgb(54, 145, 50);">Hadoop</a><a href="/tags/HDFS/" style="font-size: 1.24em; color: rgb(50, 122, 129);">HDFS</a><a href="/tags/%E9%85%8D%E9%A2%9D/" style="font-size: 1.2em; color: rgb(52, 113, 174);">配额</a><a href="/tags/%E5%88%86%E5%B8%83%E5%BC%8F/" style="font-size: 1.24em; color: rgb(175, 66, 50);">分布式</a><a href="/tags/HDP/" style="font-size: 1.24em; color: rgb(187, 50, 98);">HDP</a><a href="/tags/Sqoop2/" style="font-size: 1.24em; color: rgb(118, 50, 150);">Sqoop2</a><a href="/tags/%E9%97%AE%E9%A2%98/" style="font-size: 1.2em; color: rgb(172, 174, 197);">问题</a><a href="/tags/shell/" style="font-size: 1.2em; color: rgb(50, 173, 50);">shell</a><a href="/tags/Livy/" style="font-size: 1.2em; color: rgb(182, 90, 50);">Livy</a><a href="/tags/Spark/" style="font-size: 1.33em; color: rgb(193, 175, 105);">Spark</a><a href="/tags/Apache/" style="font-size: 1.29em; color: rgb(199, 120, 70);">Apache</a><a href="/tags/Mac/" style="font-size: 1.29em; color: rgb(197, 98, 117);">Mac</a><a href="/tags/Windows/" style="font-size: 1.29em; color: rgb(154, 111, 143);">Windows</a><a href="/tags/%E5%90%AF%E5%8A%A8%E7%9B%98/" style="font-size: 1.2em; color: rgb(178, 200, 73);">启动盘</a><a href="/tags/%E8%A7%84%E8%8C%83/" style="font-size: 1.29em; color: rgb(57, 182, 174);">规范</a><a href="/tags/MarkDown/" style="font-size: 1.2em; color: rgb(50, 152, 78);">MarkDown</a><a href="/tags/%E9%9B%86%E7%BE%A4/" style="font-size: 1.2em; color: rgb(112, 132, 113);">集群</a><a href="/tags/%E5%88%86%E7%89%87/" style="font-size: 1.2em; color: rgb(50, 114, 119);">分片</a><a href="/tags/PyMongo/" style="font-size: 1.24em; color: rgb(119, 70, 121);">PyMongo</a><a href="/tags/MongoEngine/" style="font-size: 1.2em; color: rgb(50, 83, 50);">MongoEngine</a><a href="/tags/CRUD/" style="font-size: 1.24em; color: rgb(62, 66, 50);">CRUD</a><a href="/tags/Python/" style="font-size: 1.29em; color: rgb(150, 196, 50);">Python</a><a href="/tags/OpenLDAP/" style="font-size: 1.24em; color: rgb(50, 173, 195);">OpenLDAP</a><a href="/tags/%E6%9D%83%E9%99%90%E9%AA%8C%E8%AF%81/" style="font-size: 1.24em; color: rgb(50, 191, 50);">权限验证</a><a href="/tags/PySpark/" style="font-size: 1.2em; color: rgb(99, 85, 138);">PySpark</a><a href="/tags/RESTful/" style="font-size: 1.2em; color: rgb(96, 196, 56);">RESTful</a><a href="/tags/API/" style="font-size: 1.2em; color: rgb(93, 186, 104);">API</a><a href="/tags/%E8%AE%BE%E8%AE%A1/" style="font-size: 1.2em; color: rgb(145, 82, 189);">设计</a><a href="/tags/scrapy/" style="font-size: 1.2em; color: rgb(87, 88, 185);">scrapy</a><a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 1.37em; color: rgb(147, 50, 50);">爬虫</a><a href="/tags/Selenium/" style="font-size: 1.29em; color: rgb(65, 50, 158);">Selenium</a><a href="/tags/ChromeDriver/" style="font-size: 1.24em; color: rgb(132, 170, 117);">ChromeDriver</a><a href="/tags/Proxy/" style="font-size: 1.2em; color: rgb(166, 162, 80);">Proxy</a><a href="/tags/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/" style="font-size: 1.2em; color: rgb(163, 156, 183);">测试文档</a><a href="/tags/%E8%AE%A1%E7%AE%97%E5%BC%95%E6%93%8E/" style="font-size: 1.24em; color: rgb(50, 146, 112);">计算引擎</a><a href="/tags/Spark-Bench/" style="font-size: 1.2em; color: rgb(50, 54, 139);">Spark-Bench</a><a href="/tags/Squid/" style="font-size: 1.2em; color: rgb(61, 159, 147);">Squid</a><a href="/tags/%E4%BB%A3%E7%90%86/" style="font-size: 1.2em; color: rgb(60, 54, 96);">代理</a><a href="/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/" style="font-size: 1.2em; color: rgb(50, 50, 72);">开发环境</a><a href="/tags/Ubuntu/" style="font-size: 1.2em; color: rgb(50, 50, 50);">Ubuntu</a><a href="/tags/%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/" style="font-size: 1.2em; color: rgb(125, 100, 55);">终端命令</a><a href="/tags/%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE/" style="font-size: 1.2em; color: rgb(139, 96, 149);">系统配置</a><a href="/tags/SHH-KEY/" style="font-size: 1.2em; color: rgb(68, 98, 158);">SHH KEY</a><a href="/tags/Git/" style="font-size: 1.2em; color: rgb(50, 50, 50);">Git</a><a href="/tags/chocolatey/" style="font-size: 1.2em; color: rgb(76, 116, 163);">chocolatey</a><a href="/tags/mitmproxy/" style="font-size: 1.2em; color: rgb(102, 60, 70);">mitmproxy</a><a href="/tags/Scrapy/" style="font-size: 1.2em; color: rgb(137, 106, 195);">Scrapy</a><a href="/tags/xpath/" style="font-size: 1.2em; color: rgb(50, 159, 142);">xpath</a><a href="/tags/re/" style="font-size: 1.2em; color: rgb(72, 50, 50);">re</a><a href="/tags/bs4/" style="font-size: 1.2em; color: rgb(61, 63, 150);">bs4</a><a href="/tags/yum/" style="font-size: 1.2em; color: rgb(66, 69, 131);">yum</a><a href="/tags/rpm/" style="font-size: 1.2em; color: rgb(127, 99, 50);">rpm</a><a href="/tags/js-%E9%80%86%E5%90%91/" style="font-size: 1.2em; color: rgb(173, 50, 188);">js 逆向</a><a href="/tags/%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1/" style="font-size: 1.2em; color: rgb(193, 95, 159);">今日头条</a><a href="/tags/npm/" style="font-size: 1.2em; color: rgb(146, 50, 82);">npm</a><a href="/tags/%E6%96%87%E6%A1%A3/" style="font-size: 1.2em; color: rgb(50, 50, 85);">文档</a><a href="/tags/IPFS/" style="font-size: 1.2em; color: rgb(50, 157, 68);">IPFS</a><a href="/tags/DNS/" style="font-size: 1.2em; color: rgb(141, 50, 79);">DNS</a><a href="/tags/Hexo/" style="font-size: 1.37em; color: rgb(50, 116, 89);">Hexo</a><a href="/tags/PWA/" style="font-size: 1.2em; color: rgb(61, 50, 126);">PWA</a><a href="/tags/%E7%AD%BE%E5%88%B0/" style="font-size: 1.2em; color: rgb(51, 175, 56);">签到</a><a href="/tags/%E8%84%9A%E6%9C%AC/" style="font-size: 1.2em; color: rgb(133, 100, 143);">脚本</a><a href="/tags/Selenium-Grid/" style="font-size: 1.2em; color: rgb(73, 50, 90);">Selenium Grid</a><a href="/tags/Chrome/" style="font-size: 1.2em; color: rgb(141, 50, 50);">Chrome</a><a href="/tags/Firefox/" style="font-size: 1.2em; color: rgb(102, 194, 60);">Firefox</a><a href="/tags/webdriver/" style="font-size: 1.2em; color: rgb(50, 50, 155);">webdriver</a><a href="/tags/Elasticsearch/" style="font-size: 1.2em; color: rgb(52, 162, 50);">Elasticsearch</a><a href="/tags/Scrapyd/" style="font-size: 1.2em; color: rgb(57, 169, 112);">Scrapyd</a><a href="/tags/HeroKu/" style="font-size: 1.2em; color: rgb(148, 52, 108);">HeroKu</a><a href="/tags/Navicat-Premium-15/" style="font-size: 1.2em; color: rgb(78, 188, 184);">Navicat Premium 15</a><a href="/tags/Navicat-Keygen-Patch/" style="font-size: 1.2em; color: rgb(183, 88, 50);">Navicat Keygen Patch</a><a href="/tags/%E7%A0%B4%E8%A7%A3/" style="font-size: 1.2em; color: rgb(50, 189, 168);">破解</a><a href="/tags/zsh/" style="font-size: 1.2em; color: rgb(74, 162, 163);">zsh</a><a href="/tags/WebSite/" style="font-size: 1.2em; color: rgb(50, 166, 110);">WebSite</a><a href="/tags/APP/" style="font-size: 1.2em; color: rgb(50, 153, 68);">APP</a><a href="/tags/%E9%A3%8E%E9%99%A9/" style="font-size: 1.2em; color: rgb(50, 75, 153);">风险</a><a href="/tags/robots-%E5%8D%8F%E8%AE%AE/" style="font-size: 1.2em; color: rgb(170, 50, 191);">robots 协议</a><a href="/tags/wget/" style="font-size: 1.2em; color: rgb(50, 67, 70);">wget</a><a href="/tags/nginx/" style="font-size: 1.2em; color: rgb(50, 110, 50);">nginx</a></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2025 By Sitoi</div><div class="framework-info"><span>框架 </span><a href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.3.2"></script><script src="/js/main.js?v=5.3.2"></script><script src="https://npm.elemecdn.com/@fancyapps/ui@latest/dist/fancybox/fancybox.umd.js"></script><script src="https://npm.elemecdn.com/instant.page@latest/instantpage.js" type="module"></script><script src="https://npm.elemecdn.com/node-snackbar@latest/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = `%%{init:{ 'theme':'${theme}'}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (false) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://npm.elemecdn.com/mermaid@latest/dist/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div><div class="app-refresh" id="app-refresh"> <div class="app-refresh-wrap"> <label>✨ 网站已更新最新版本 👉</label> <a href="javascript:void(0)" onclick="location.reload()">点击刷新</a> </div></div><script>function showNotification(){if(GLOBAL_CONFIG.Snackbar){var t="light"===document.documentElement.getAttribute("data-theme")?GLOBAL_CONFIG.Snackbar.bgLight:GLOBAL_CONFIG.Snackbar.bgDark,e=GLOBAL_CONFIG.Snackbar.position;Snackbar.show({text:"已更新最新版本",backgroundColor:t,duration:5e5,pos:e,actionText:"点击刷新",actionTextColor:"#fff",onActionClick:function(t){location.reload()}})}else{var o=`top: 0; background: ${"light"===document.documentElement.getAttribute("data-theme")?"#49b1f5":"#1f1f1f"};`;document.getElementById("app-refresh").style.cssText=o}}"serviceWorker"in navigator&&(navigator.serviceWorker.controller&&navigator.serviceWorker.addEventListener("controllerchange",function(){showNotification()}),window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js")}));</script><script id="click-heart" src="https://npm.elemecdn.com/butterfly-extsrc@latest/dist/click-heart.min.js" async="async" mobile="false"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.3.2"></script></div></div></body></html>
